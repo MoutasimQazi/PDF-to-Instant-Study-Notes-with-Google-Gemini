@@ -18,7 +18,7 @@ What started as a personal frustration is now a **game-changer** for students & 
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/your-username/Gemini-PDF-StudyNotes.git
+git clone https://github.com/MoutasimQazi/PDF-to-Instant-Study-Notes-with-Google-Gemini.git
 cd Gemini-PDF-StudyNotes
 ```
 
