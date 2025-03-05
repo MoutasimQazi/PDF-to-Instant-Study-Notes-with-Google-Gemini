@@ -1,0 +1,6 @@
+PyMuPDF
+openpyxl
+google-generativeai
+markdown
+codecs
+python-docx
