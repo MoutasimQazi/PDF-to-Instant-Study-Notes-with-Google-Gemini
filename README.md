@@ -29,10 +29,10 @@ pip install -r requirements.txt
 
 ### 3️⃣ Configure Google Gemini API  
 - Sign up for **Google AI API** and get a **GEMINI_API_KEY**.  
-- Open the `config.py` file and add your key:  
-  ```python
-  GEMINI_API_KEY = "your-api-key-here"
-  ```
+- Add your API key as an environment variable:  
+  ```bash
+  export GEMINI_API_KEY="your-api-key-here"
+  ```  
 
 ---
 
@@ -53,12 +53,7 @@ pip install -r requirements.txt
 python main.py --pdf example.pdf
 ```
 
-### Convert to a Web Page  
-```bash
-python convert_to_html.py
-```
-
-The output HTML file will be generated and can be shared directly.
+The output HTML file will be generated and can be shared directly.  
 
 ---
 
@@ -70,13 +65,34 @@ The output HTML file will be generated and can be shared directly.
 
 ---
 
-## 📜 License  
-This project is licensed under the **MIT License**. Feel free to use and modify it!  
+## 🌟 File Structure  
+```
+📚 Gemini-PDF-StudyNotes
+│── main.py          # Main script for processing PDFs & generating HTML
+│── requirements.txt # Required dependencies
+│── README.md        # Project documentation
+```
+
+---
+
+## 🔒 Password Protection  
+- The generated HTML file is password-protected.  
+- Default password: `dontstudy`  
+- Modify the password inside `main.py` if needed.  
+
+---
+
+## 💪 Contributing  
+Feel free to fork this project, open issues, or submit PRs to improve functionality!  
+
+---
+
+## 🌇 License  
+This project is licensed under the **MIT License**. See `LICENSE` for more details.  
 
 ---
 
 ## 💡 Let's Connect!  
 Have ideas to improve this tool? Want to collaborate? Reach out!  
-
 
 
